@@ -14,6 +14,7 @@
 		2DFFF94F1F372884001B7CC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DFFF94D1F372884001B7CC8 /* LaunchScreen.storyboard */; };
 		2DFFF95A1F372884001B7CC8 /* FaBoSDKPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFF9591F372884001B7CC8 /* FaBoSDKPracticeTests.swift */; };
 		2DFFF9651F372884001B7CC8 /* FaBoSDKPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFFF9641F372884001B7CC8 /* FaBoSDKPracticeUITests.swift */; };
+		738B8CFBD33500237246AF27 /* Pods_FaBoSDKPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0274B0931AEBE00D1FF7980B /* Pods_FaBoSDKPractice.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0274B0931AEBE00D1FF7980B /* Pods_FaBoSDKPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaBoSDKPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFFF9411F372884001B7CC8 /* FaBoSDKPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaBoSDKPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFFF9441F372884001B7CC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DFFF9461F372884001B7CC8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		2DFFF9601F372884001B7CC8 /* FaBoSDKPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaBoSDKPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFFF9641F372884001B7CC8 /* FaBoSDKPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaBoSDKPracticeUITests.swift; sourceTree = "<group>"; };
 		2DFFF9661F372884001B7CC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0B7EE53B9B1D9DCF46A3D7A /* Pods-FaBoSDKPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaBoSDKPractice.release.xcconfig"; path = "Pods/Target Support Files/Pods-FaBoSDKPractice/Pods-FaBoSDKPractice.release.xcconfig"; sourceTree = "<group>"; };
+		E97D1604551DCF9877F33CA6 /* Pods-FaBoSDKPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaBoSDKPractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FaBoSDKPractice/Pods-FaBoSDKPractice.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				738B8CFBD33500237246AF27 /* Pods_FaBoSDKPractice.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,8 @@
 				2DFFF9581F372884001B7CC8 /* FaBoSDKPracticeTests */,
 				2DFFF9631F372884001B7CC8 /* FaBoSDKPracticeUITests */,
 				2DFFF9421F372884001B7CC8 /* Products */,
+				30209C321AD2BE56DE65E57B /* Pods */,
+				FF9EF3C744DF7158D82AC6A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +107,8 @@
 				2DFFF9441F372884001B7CC8 /* AppDelegate.swift */,
 				2DFFF9461F372884001B7CC8 /* ViewController.swift */,
 				2DFFF9481F372884001B7CC8 /* Main.storyboard */,
-				2DFFF94B1F372884001B7CC8 /* Assets.xcassets */,
 				2DFFF94D1F372884001B7CC8 /* LaunchScreen.storyboard */,
+				2DFFF94B1F372884001B7CC8 /* Assets.xcassets */,
 				2DFFF9501F372884001B7CC8 /* Info.plist */,
 			);
 			path = FaBoSDKPractice;
@@ -125,6 +132,23 @@
 			path = FaBoSDKPracticeUITests;
 			sourceTree = "<group>";
 		};
+		30209C321AD2BE56DE65E57B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E97D1604551DCF9877F33CA6 /* Pods-FaBoSDKPractice.debug.xcconfig */,
+				E0B7EE53B9B1D9DCF46A3D7A /* Pods-FaBoSDKPractice.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF9EF3C744DF7158D82AC6A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0274B0931AEBE00D1FF7980B /* Pods_FaBoSDKPractice.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DFFF9691F372884001B7CC8 /* Build configuration list for PBXNativeTarget "FaBoSDKPractice" */;
 			buildPhases = (
+				3C5EAC4ADC643B8F1C382957 /* [CP] Check Pods Manifest.lock */,
 				2DFFF93D1F372884001B7CC8 /* Sources */,
 				2DFFF93E1F372884001B7CC8 /* Frameworks */,
 				2DFFF93F1F372884001B7CC8 /* Resources */,
+				BC4E9A644EE0EA2D084F02C0 /* [CP] Embed Pods Frameworks */,
+				DF951762174CE94BEBB83D4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +280,66 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C5EAC4ADC643B8F1C382957 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FaBoSDKPractice-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4E9A644EE0EA2D084F02C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FaBoSDKPractice/Pods-FaBoSDKPractice-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaBoSDKPractice/Pods-FaBoSDKPractice-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF951762174CE94BEBB83D4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FaBoSDKPractice/Pods-FaBoSDKPractice-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2DFFF93D1F372884001B7CC8 /* Sources */ = {
@@ -408,6 +495,7 @@
 		};
 		2DFFF96A1F372884001B7CC8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97D1604551DCF9877F33CA6 /* Pods-FaBoSDKPractice.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FaBoSDKPractice/Info.plist;
@@ -420,6 +508,7 @@
 		};
 		2DFFF96B1F372884001B7CC8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0B7EE53B9B1D9DCF46A3D7A /* Pods-FaBoSDKPractice.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FaBoSDKPractice/Info.plist;
@@ -503,6 +592,7 @@
 				2DFFF96B1F372884001B7CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFFF96C1F372884001B7CC8 /* Build configuration list for PBXNativeTarget "FaBoSDKPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +601,7 @@
 				2DFFF96E1F372884001B7CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2DFFF96F1F372884001B7CC8 /* Build configuration list for PBXNativeTarget "FaBoSDKPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +610,7 @@
 				2DFFF9711F372884001B7CC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
